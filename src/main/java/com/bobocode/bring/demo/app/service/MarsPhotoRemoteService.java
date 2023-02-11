@@ -24,7 +24,7 @@ import java.util.List;
 public class MarsPhotoRemoteService implements MarsPhotoService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger("MarsPhotoService");
-    private static final String NASA_PHOTOS_URI = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=300&api_key=qWws2hdBXWMLsXsQpOhD05WhqLl9wjr3ns0grRHL";
+    private static final String NASA_PHOTOS_URI = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=300&api_key=DEMO_KEY";
 
     @Autowired
     private HttpClient httpClient;
